@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    max-width: 100%;
+    height: 100vh;
+    text-align: center;
+    background-color: bisque;
+    border-radius: 334.5px;
+background: linear-gradient(0deg, #121212 0%, rgba(18, 18, 18, 0.00) 100%);
+background-image: ;
+}
