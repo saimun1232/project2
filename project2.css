@@ -2,12 +2,312 @@
     margin: 0;
     padding: 0;
 }
+body{
+    font-family: 'Lobster', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
 .header{
     max-width: 100%;
     height: 100vh;
     text-align: center;
     background-color: bisque;
-    border-radius: 334.5px;
-background: linear-gradient(0deg, #121212 0%, rgba(18, 18, 18, 0.00) 100%);
-background-image: ;
+    background-image: url("images/donation1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.header h1{
+    color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 65px;
+font-weight: 700;
+}
+.header p{
+    color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+}
+.header button{
+border-radius: 5px;
+background-image: linear-gradient(45deg,#FF5959,#2f3131,#00f2ff);
+box-shadow: inset 8px 8px 10px #f55,inset -8px -8px 10px #0ff;
+width: 160px;
+padding: 16px 12px;
+border: none;
+outline: none;
+color: #FFF;
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+}
+.header button:hover{
+    background-image: linear-gradient(45deg,#00f2ff,#739595,#FF5959);
+    }
+    /* header end */
+    /* main start */
+    main{
+        max-width: 100%;
+        height: 100vh;
+    }
+    /* section donate today start */
+
+    .do-to-sec{
+        width: 1000px;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 50px;
+        background-color: #ecf0f3;
+        border: none;
+        border-radius: 10px;
+    }
+    .do-to-sec h1{
+        color: #121212;
+        text-align: center;
+        font-family: Inter;
+        font-size: 45px;
+        font-weight: 700;
+        margin-top: 30px;
+        }
+        .do-to-sec p{
+            color: #707070;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+        }
+        .do-to-sec .btn-group{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .do-to-sec div .btn{
+            width: 100px;
+height: 100px;
+border-radius: 5px;
+background: #FAFAFA;
+color: #707070;
+text-align: center;
+font-family: Inter;
+font-size: 30px;
+font-weight: 700;
+margin: 30px;
+        }
+        .do-to-foot{
+
+        }
+        .do-to-foot input{
+           border: none;
+           outline: none;
+           border-radius: 10px;
+           color: #4b4848;
+            text-align: center;
+            font-family: Poppins;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 28px;
+            margin-top: 20px;
+            height: 50px;
+        }
+        .do-to-foot hr{
+            width: 900px;
+            height: 0px;
+            flex-shrink: 0;
+            stroke-width: 1px;
+            stroke: #7b7b7b;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+        .do-to-foot button{
+                border-radius: 5px;
+                background-color:#ecf0f3;; 
+                box-shadow: inset 10px 10px 15px #cbced1,inset -10px -10px 15px #ffffff;                width: 160px;
+                padding: 16px 12px;
+                border: none;
+                outline: none;
+                color: #313131;
+                font-family: Inter;
+                font-size: 20px;
+                font-weight: 600;
+                margin: 10px;
+        }
+        .do-to-foot button:hover{
+            background-image: linear-gradient(45deg,#e2e6e7,#d2d9d9,#c5c3c3);
+            }
+    /* section donate today end */
+    /* section donate plan start */
+.do-plan{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #ecf0f3;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.do-plan h1{
+color: #121212;
+text-align: center;
+font-family: Inter;
+font-size: 45px;
+font-weight: 700;
+margin-top: 20px;
+}
+.do-plan > p{
+color: #707070;
+text-align: center;
+font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+margin:10px ;
+    }
+    .do-plan-con{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+.do-plan-item{
+    width: 200px;
+height: 200px;
+flex-shrink: 0;
+background-color: #ecf0f3;
+box-shadow: inset 10px 10px 15px #cbced1,inset -10px -10px 15px #ffffff;
+padding: 20px;
+outline: none;
+border: none;
+border-radius: 10px;
+}
+.do-plan-item h3{
+    color: #121212;
+font-family: Poppins;
+font-size: 24px;
+font-weight: 600;
+}
+.do-plan-item p{
+    color: #707070;
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+}
+    /* section donate plan end */
+    /* section ditribution start  */
+    .dis-con{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 50px;
+    }
+    .dis-des h1{
+        color: #121212;
+font-family: Inter;
+font-size: 45px;
+font-weight: 700;
+
+    }
+    .dis-des p{
+        color: #707070;
+font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+padding: 10px;
+text-align: justify;
+    }
+    .dis-con img{
+        width: 400px;
+        border-radius: 10px;
+    }
+.dis-des button{
+    border-radius: 5px;
+                background-color:#ecf0f3;; 
+                box-shadow: inset 10px 10px 15px #cbced1,inset -10px -10px 15px #ffffff;                width: 160px;
+                padding: 16px 12px;
+                border: none;
+                outline: none;
+                color: #313131;
+                font-family: Inter;
+                font-size: 20px;
+                font-weight: 600;
+                margin: 10px;
+                width: 200px;
+}
+.dis-des button:hover{
+    background-image: linear-gradient(45deg,#e2e6e7,#d2d9d9,#c5c3c3);
+
+}
+    /* section ditribution end  */
+    /* uptades section */
+    .up-sec input{
+border: none;
+           outline: none;
+           border-radius: 10px;
+           color: #4b4848;
+            text-align: left;
+            font-family: Poppins;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 28px;
+            margin-top: 20px;
+            height: 50px;
+            padding: 5px;
+}
+.up-sec button{
+    border-radius: 5px;
+                background-color:#ecf0f3;; 
+                box-shadow: inset 10px 10px 15px #cbced1,inset -10px -10px 15px #ffffff;                width: 160px;
+                padding: 16px 12px;
+                border: none;
+                outline: none;
+                color: #313131;
+                font-family: Inter;
+                font-size: 20px;
+                font-weight: 800;
+margin-left: 10px;
+                
+}
+.up-sec{
+    padding: 50px;
+    background: #FFF4D6;
+    border: none;
+    border-radius: 0px;
+    width: 500px;
+    margin: 0 auto;
+    margin-top:40px ;
+}
+.dis-sec{
+    background-color: #ffffff;
+}
+/* footer start */
+.footer{
+    max-width: 100%;
+    background-color: black;
+    text-align: center;
+}
+.footer h1{
+    color: #FF5959;
+font-family: Lobster;
+font-size: 36px;
+font-weight: 400;
+line-height: 44px;
+letter-spacing: 1px;
+}
+.footer h6{
+    color: #D9DBE1;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+/* footer end */
